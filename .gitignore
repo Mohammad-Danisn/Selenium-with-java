@@ -1,0 +1,6 @@
+mylogs.log
+.idea/
+google.har
+target/
+test-output/
+pom.xml
