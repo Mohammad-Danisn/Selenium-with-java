@@ -19,7 +19,7 @@ public class MakeMyTrip {
         driver.get("https://www.makemytrip.com/");
 
         driver.findElement(By.xpath("//li[@id='showBizUpgradePopup']/following-sibling::li[2]")).click();
-
+        System.out.println("");
         // Select From
         WebElement from = driver.findElement(By.xpath("//input[@id='fromCity']"));
         from.click();
