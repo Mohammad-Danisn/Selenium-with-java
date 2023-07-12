@@ -10,7 +10,7 @@ public class Test3 {
     public static void main(String[] args) throws InterruptedException {
 
         // chromedriver.exe  --> Chrome Browser
-        System.setProperty("webdriver.chrome.driver", "E:\\UdemySeleniumCourse\\Software\\DriverNotes\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\UdemySeleniumCourse\\Software\\DriverNotes\\New folder\\chromedriver.exe");
 
         // webdriver.chrome.driver->value of path
         WebDriver driver = new ChromeDriver();

@@ -1,3 +1,4 @@
+import org.openqa.selenium.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +11,7 @@ public class Test2 {
     public static void main(String[] args) throws InterruptedException {
 
         // chromedriver.exe  --> Chrome Browser
-        System.setProperty("webdriver.chrome.driver", "E:\\UdemySeleniumCourse\\Software\\DriverNotes\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\UdemySeleniumCourse\\Software\\DriverNotes\\Newfolder\\chromedriver.exe");
 
         // webdriver.chrome.driver->value of path
         WebDriver driver = new ChromeDriver();

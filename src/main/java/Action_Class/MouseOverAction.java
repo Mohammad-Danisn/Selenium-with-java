@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
@@ -12,8 +13,8 @@ public class MouseOverAction {
     public static void main(String[] args) throws InterruptedException {
 
         //Lounch Chrome Browser
-        System.setProperty("webdriver.chrome.driver","E:\\UdemySeleniumCourse\\Software\\DriverNotes\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "E:\\UdemySeleniumCourse\\Software\\DriverNotes\\geckodriver1.exe");
+        WebDriver driver = new FirefoxDriver();
 
         //Maxmizes the browser
         driver.manage().window().maximize();

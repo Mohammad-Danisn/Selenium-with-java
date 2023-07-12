@@ -26,6 +26,8 @@ public class Context_Click {
         Actions act =new Actions(driver);
         act.contextClick(button).perform();  // Right Click Action
 
+        driver.close();
+
 
     }
 }
