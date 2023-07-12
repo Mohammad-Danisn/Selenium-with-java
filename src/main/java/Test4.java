@@ -86,7 +86,7 @@ public class Test4 {
 
         //of Second
         //Params:-  seconds – the number of seconds, positive or negative
-        //Returns:-  a Duration, not null
+        //Returns:-  a Duration, not null.
 
         String password = getPassword(driver);
 
